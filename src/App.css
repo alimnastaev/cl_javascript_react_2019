@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  display: block;
+}
+
+.container {
+  text-align: center;
+  padding: 0px 0px;
+}
+
+tbody {
+  padding: 0px 0px;
+}
+
+.names {
+  font-weight: bold;
+  color: white;
+}
+
+nav.navbar {
+  padding-bottom: 0;
+}
+
+w-auto {
+  width: 100%;
+}
+
+p {
+  padding: 20px;
+  font-weight: bold;
+  color: rgb(98, 107, 106);
+}
+
+input {
+  border-radius: 5px;
+}
+
+.active {
+  background-color: rgb(189, 199, 185);
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+a.nav-item {
+  font-weight: bold;
+  color: rgb(48, 96, 184) !important;
+}
+
+#inner {
+  /* border: 1px solid red; */
+  width: 100%;
+  /* margin-top: 100px; */
+}
+
+button {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 12px solid red;
+}
+
+navbar {
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 1000 !important;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 13px;
+}
+
+h1 {
+  padding: 80px;
+  color: rgb(98, 107, 106);
+}
