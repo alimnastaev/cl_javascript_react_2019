@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Input Form to explore number of repos for a perticular language 
 const LanguageForm = (props) => {
   return (
     <form onSubmit={props.getLanguage}>

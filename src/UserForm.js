@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Input Form to explore number of repos for a perticular user 
 const UserForm = props => {
   return (
     <form onSubmit={props.getUser}>

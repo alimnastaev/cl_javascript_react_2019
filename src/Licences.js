@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 
+// Licences Component to get all available licences in GitHub
 class Licences extends Component {
   constructor(props) {
     super(props)

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import axios from "axios";
 import './App.css';
-
-
 import LanguageForm from "./LanguageForm";
 
-class App extends Component {
+// Language Component with external LanguageForm in render method
+
+class Language extends Component {
   state = {
     count: null
   }
@@ -22,7 +22,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
+      <div className="subform">
         <LanguageForm getLanguage={this.getLanguage} />
         { this.state.count ? <p>Total number of repos: { this.state.count }</p> : <p>Please type language</p> }
       </div>
@@ -30,4 +30,4 @@ class App extends Component {
   }
 };
 
-export default App;
+export default Language;

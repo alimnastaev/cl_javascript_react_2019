@@ -4,10 +4,12 @@ import User from './User'
 import Language from './Language'
 import Licences from './Licences'
 import Home from './Home'
-
 import './App.css'
 import $ from 'jquery'
 
+// Humburger menu implementation
+// NavLink adding styling attributes to the rendered element when it matches the current URL
+// Route render UI when a location matches the route's path
 class App extends Component {
   closeNavDropdown () {
     var nav = $('.navbar-collapse')
