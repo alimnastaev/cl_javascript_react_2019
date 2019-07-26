@@ -1,4 +1,4 @@
-### My Code Louisville React Class final project (May, 2019)
+## My Code Louisville React Class final project (May, 2019)
 
 This is simple `GitHub explorer` app 
 
@@ -15,7 +15,7 @@ To make HTTP requests `.fetch()` method and `axios` library were used.
 The app is responsive (`Bootstrap 4` implemented).
 
 
-## To start the app:
+### To start the app:
 
 `npm install`
 
